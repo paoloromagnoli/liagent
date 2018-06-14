@@ -5,6 +5,7 @@ Requisites
 - vRA up and running (I developed this using vRA 7.4, should work with previous versions that support Software Components)
 - vRLI up and running (I developed this using vRLI 4.6.1, should work with previous versions)
 - the VM where you install the agent has to: 
+    - run CentOS 7 (other Linux distros might work as well)
     - reach vRLI appliance on https protocol
     - have vRA agent installed
     - have curl installed
